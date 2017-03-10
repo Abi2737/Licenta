@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf5c63cb-00ca-4987-9582-c0085fcbe93e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Qlearning.py</StartupFile>
+    <StartupFile>Game.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Astar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Qlearning.py" />
